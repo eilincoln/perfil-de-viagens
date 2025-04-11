@@ -1,0 +1,7 @@
+header {
+    padding-block: 42px;
+}
+
+.profile {
+    display: flex;
+}
