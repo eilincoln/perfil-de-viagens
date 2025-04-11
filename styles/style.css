@@ -1,3 +1,6 @@
+/* CONFIGURAÇÕES GERAIS */
 * {
-    background-color: blueviolet;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
