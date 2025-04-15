@@ -17,10 +17,15 @@
     --text-color-secondary: #6c6c6c;
 
     /* Texto */
-     
+    --font-family: "Poppins", sans-serif;
+    --text: 16px/175% var(--font-family);
+    --text-lg: bold 32px/125% var(--font-family);
+    --text-md: 14px/175% var(--font-family);
+    --text-sm: 12px/175% var(--font-family);
 }
 
 body {
     color: var(--text-color-secondary);
     background-color: var(--background-color);
+    font: var(--text-lg);
 }
