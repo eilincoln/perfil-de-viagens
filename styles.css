@@ -1,5 +1,26 @@
+/* Estilos Globais */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    /* Cores */
+    --brand-color: #EF5F4C;
+    --background-color: #FFFFFF;
+    --surface-color: #f5f5f5;
+    --skeleton-color: #d9d9d9;
+    --shape-trasparency: #ffffff8f;
+    --text-color-primary: #313131; 
+    --text-color-secondary: #6c6c6c;
+
+    /* Texto */
+     
+}
+
+body {
+    color: var(--text-color-secondary);
+    background-color: var(--background-color);
 }
