@@ -1,31 +1,74 @@
-/* Estilos Globais */
+/**********************************ESTILOS GLOBAIS**********************************/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    /* Cores */
-    --brand-color: #EF5F4C;
-    --background-color: #FFFFFF;
-    --surface-color: #f5f5f5;
-    --skeleton-color: #d9d9d9;
-    --shape-trasparency: #ffffff8f;
-    --text-color-primary: #313131; 
-    --text-color-secondary: #6c6c6c;
+  /* Cores */
+  --brand-color: #ef5f4c;
+  --background-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-trasparency: #ffffff8f;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6c6c6c;
 
-    /* Texto */
-    --font-family: "Poppins", sans-serif;
-    --text: 16px/175% var(--font-family);
-    --text-lg: bold 32px/125% var(--font-family);
-    --text-md: 14px/175% var(--font-family);
-    --text-sm: 12px/175% var(--font-family);
+  /* Texto */
+  --font-family: "Poppins", sans-serif;
+  --text: 16px/175% var(--font-family);
+  --text-lg: bold 32px/125% var(--font-family);
+  --text-md: 14px/175% var(--font-family);
+  --text-sm: 12px/175% var(--font-family);
 }
 
 body {
-    color: var(--text-color-secondary);
-    background-color: var(--background-color);
-    font: var(--text-lg);
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+  font: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
+
+/********************************** NAV **********************************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+  padding-block: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  padding-block: 8px;
+}
+
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
 }
