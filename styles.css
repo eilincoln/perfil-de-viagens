@@ -92,6 +92,13 @@ header .container {
   gap: 32px;
 }
 
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 #profile > div {
   max-width: 384px;
 }
@@ -139,6 +146,8 @@ footer {
   gap: 24px;
 
   padding-block: 24px;
+
+  font: 14px/150% var(--font-family);
 }
 
 footer span:nth-child(1) {
