@@ -73,7 +73,7 @@ nav ul li:last-child img {
   height: 40px;
 }
 
-/********************************** NAV **********************************/
+/********************************** HEADER **********************************/
 
 header {
   padding-block: 32px;
@@ -115,4 +115,19 @@ header .container {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+/********************************** MAIN **********************************/
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-block: 25px;
+}
+
+main img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
 }
