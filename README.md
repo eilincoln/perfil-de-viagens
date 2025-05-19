@@ -18,7 +18,7 @@ Este projeto foi desenvolvido com o objetivo de praticar conceitos de **HTML e C
 
 ![Imagem do Projeto](./assets/images/screencapture-file-C-Users-User-Desktop-perfil-de-viagens-index-html-2025-04-19-18_55_57.png)
 
-> 📸 A galeria exibe fotos de viagens, com foco em um design limpo, responsivo e elegante.
+> 📸 A galeria exibe fotos de viagens, com foco em um design limpo, responsivo.
 
 ---
 
